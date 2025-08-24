@@ -1,8 +1,6 @@
-package com.example.passingplaincustomdataamongscreeninjetpackcompose.ui.theme
+package com.example.passingplaincustomdataamongscreeninjetpackcompose.core.utils
 
-import android.app.Activity
 import android.os.Build
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
@@ -35,7 +33,8 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun PassingPlainCustomDataAmongScreenInJetpackComposeTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = false,
+//    darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit

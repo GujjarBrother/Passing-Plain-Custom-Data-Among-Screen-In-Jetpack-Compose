@@ -1,4 +1,4 @@
-package com.example.passingplaincustomdataamongscreeninjetpackcompose.ui.theme
+package com.example.passingplaincustomdataamongscreeninjetpackcompose.core.utils
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
